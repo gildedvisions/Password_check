@@ -13,10 +13,10 @@ def passwordcheck(password):
         N = "Password length must be greater than 7 characters. "
         ans1.append(N)
     for i in pwd:
-        if ('A' <= i ) and (i <= 'Z'):
+        if ('a' <= i ) and (i <= 'z'):
             K =+ 1
     for i in pwd:
-        if ('a' <= i ) and (i <= 'z'):
+        if ('A' <= i ) and (i <= 'Z'):
             J =+ 1
     for i in pwd:
         if ('0' <= i) and (i <= "9"):
